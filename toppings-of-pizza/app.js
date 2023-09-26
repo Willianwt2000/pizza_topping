@@ -12,7 +12,7 @@ const listaDeToppings = document.getElementById('lista-toppings');
 
 const toppingNuevo = document.createElement('li');
 const toppingNuevo2 = document.createElement('li');
-console.log(toppingNuevo)
+// console.log(toppingNuevo)
 toppingNuevo.classList.add("toppings", "fondo-marron" )
 toppingNuevo.innerText = "Queso Extra"
 toppingNuevo2.classList.add("toppings", "fondo-naranja" )
@@ -27,8 +27,8 @@ toppingNuevo2.remove()
 
 
 //recorrer el dom 
-console.log('ParentElement')
-console.log(listaDeToppings.parentElement)
-console.log('children')
-console.log(listaDeToppings.children)
+// console.log('ParentElement')
+// console.log(listaDeToppings.parentElement)
+// console.log('children')
+// console.log(listaDeToppings.children)
 
